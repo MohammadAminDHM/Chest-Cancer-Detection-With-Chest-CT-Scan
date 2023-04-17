@@ -1,0 +1,32 @@
+{
+	"dataset": {
+		"Train": "./Dataset/train/",
+		"Valid": "./Dataset/valid/",
+        "Test": "./Dataset/test/"
+	},
+
+	"Train": {
+        "epoch": 200,
+        "device": "cuda",
+        "num_worker": 0,
+        "batch": 32,
+        "lr": 0.001,
+        "wd": 0.0001,
+        "path":{
+            "model_path": "./Models/",
+            "result_path": "./Results/"
+        },
+		"ResNet50": {
+			"timm_name": "resnet50",
+            "model_name": "ResNet50",
+			"neuron" : 2048
+	}
+	},
+
+    "Test":{
+            "ResNet50": {
+                "model": "./Models/model_ResNet50_acc_max.pt",                
+                "neuron" : 2048
+        }
+    }
+}

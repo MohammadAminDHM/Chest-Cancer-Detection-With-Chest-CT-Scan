@@ -38,6 +38,16 @@ The following system requirements must be met in order to run the project:
 
 To train the model, run the `Train.py` script. I used the ResNet50 architecture for the model. 🏋️‍♂️🤖
 
+## Results 📊
+
+After training the model on the Chest CT-Scan dataset, we achieved the following results:
+
+![Results](/Results/Accuracy.png)
+![Results](/Results/Recall.png)
+![Results](/Results/Precision.png)
+![Results](/Results/F1.png)
+
+
 ## ToDo 📝
 
 Here are some ideas for future development:

@@ -38,6 +38,14 @@ The following system requirements must be met in order to run the project:
 
 To train the model, run the `Train.py` script. I used the ResNet50 architecture for the model. 🏋️‍♂️🤖
 
+## ToDo 📝
+
+Here are some ideas for future development:
+
+- Improve model accuracy by training on larger datasets or using more advanced architectures.
+- Develop a user-friendly interface for the system to make it more accessible to healthcare professionals.
+- Add Notebook vesion
+
 ## Contributing 🤝
 
 I welcome contributions to this project! If you would like to contribute, please follow these steps:

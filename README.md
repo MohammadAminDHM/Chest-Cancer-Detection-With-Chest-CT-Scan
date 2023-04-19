@@ -54,7 +54,7 @@ Here are some ideas for future development:
 
 - Improve model accuracy by training on larger datasets or using more advanced architectures.
 - Develop a user-friendly interface for the system to make it more accessible to healthcare professionals.
-- Add Notebook vesion
+- Add Notebook vesion (Done!)
 
 ## Contributing 🤝
 
